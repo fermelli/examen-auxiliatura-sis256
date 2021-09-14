@@ -1,0 +1,109 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+
+#contenedor {
+  border: 1px solid #181818;
+}
+
+/* HEAD */
+#cabeza {
+  background-color: #f3c93e;
+  border-bottom: 1px solid #181818;
+}
+
+#contenedor-imagen {
+  text-align: center;
+}
+
+#logo {
+  width: 80px;
+}
+
+.multicolores {
+  font-weight: bold;
+}
+
+h1.rojo {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.rojo {
+  color: red;
+}
+
+h3.azul {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.azul {
+  color: blue;
+}
+
+.amarillo {
+  color: yellow;
+}
+
+.verde {
+  color: green;
+}
+
+#info {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* MENU */
+#menu {
+  background-color: #0099ff;
+  border-right: 1px solid #181818;
+}
+
+.menu__lista {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.menu__link {
+  background-color: #ffffff;
+  border-radius: 0.25rem;
+  text-align: center;
+  line-height: 2;
+  color: #646464;
+  text-decoration: none;
+  display: block;
+  height: 40px;
+  margin: 0.5rem 0;
+}
+
+.menu__link:visited,
+.menu__link:hover {
+  text-decoration: none;
+}
+
+/* CUERPO */
+#cuerpo {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* PIE */
+#pie {
+  font-family: Arial, Helvetica, sans-serif;
+  border-top: 1px solid #181818;
+  font-size: 1.25rem;
+  color: #ffffff;
+}
+
+/* P2 */
+.fila {
+  border: 4px solid #3a3a3a;
+  background-color: #b8b8b8;
+  padding: 0.5rem;
+}
+
+.libro {
+  padding: 0.25rem;
+  background-color: #0099ff;
+  color: #ffffff;
+}
